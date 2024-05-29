@@ -30,6 +30,6 @@ describe("TermsAndConditions", () => {
     await user.click(checkbox);
 
     //Assert
-    expect(screen.getByRole("button")).toBeEnabled();
+    expect(button).toBeEnabled();
   });
 });
