@@ -1,8 +1,13 @@
-//import Onboarding from "../components/Onboarding";
-import SearchBox from "../components/SearchBox";
+import { Toaster } from "react-hot-toast";
+import ToastDemo from "../components/ToastDemo";
 
 const PlaygroundPage = () => {
-  return <SearchBox onChange={(text) => console.log(text)}></SearchBox>;
+    return (
+        <>
+            <ToastDemo></ToastDemo>
+            <Toaster></Toaster>
+        </>
+    );
 };
 
 export default PlaygroundPage;
