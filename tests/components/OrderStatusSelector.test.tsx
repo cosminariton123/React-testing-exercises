@@ -65,7 +65,7 @@ describe("OrderStatusSelector", () => {
         const processedOption = await getOption(/processed/i);
         await user.click(processedOption);
 
-        user.click(trigger);
+        await user.click(trigger);
         const newOption = await getOption(/new/i);
         await user.click(newOption);
 
