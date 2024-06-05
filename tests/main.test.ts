@@ -6,6 +6,5 @@ describe("group", () => {
         const data = await response.json();
         console.log(data);
         expect(data).toHaveLength(3);
-        expect(1).toBeTruthy();
     });
 });
