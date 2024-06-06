@@ -1,7 +1,7 @@
-import OrderStatusSelector from "../components/OrderStatusSelector";
+import BrowseProducts from "./BrowseProductsPage";
 
 const PlaygroundPage = () => {
-    return <OrderStatusSelector onChange={console.log}></OrderStatusSelector>;
+    return <BrowseProducts></BrowseProducts>;
 };
 
 export default PlaygroundPage;
