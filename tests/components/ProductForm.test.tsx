@@ -65,7 +65,7 @@ describe("ProductForm", () => {
                     if (product.price !== undefined)
                         await user.type(priceInput, product.price.toString());
 
-                    await user.tab(); //Temporary solution caused by RADIXUI
+                    await user.tab(); //Temporary solution for problem caused by RADIXUI
                     await user.click(categoryInput);
                     const options = screen.getAllByRole("option");
                     await user.click(options[0]);
