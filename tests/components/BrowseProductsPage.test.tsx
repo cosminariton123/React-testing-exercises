@@ -39,7 +39,7 @@ describe("BrowseProductsPage", () => {
         db.product.deleteMany({ where: { id: { in: productsIds } } });
 
         const categoryIds = categories.map((c) => c.id);
-        db.product.deleteMany({ where: { id: { in: categoryIds } } });
+        db.category.deleteMany({ where: { id: { in: categoryIds } } });
     });
 
     describe("Loading state", () => {
