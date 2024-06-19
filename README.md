@@ -1,8 +1,8 @@
 # Course completed
 
-[Diploma as link to file](the-complete-react-testing-course.pdf)
+[Certificate as link to file](the-complete-react-testing-course.pdf)
 
-![Diploma as photo](the-complete-react-testing-course.jpg)
+![Certificate as photo](the-complete-react-testing-course.jpg)
 
 # Course description
 
